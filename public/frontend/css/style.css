@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+#header {
+  height: 84px;
+}
+.logoimg {
+  width: 150px;
+  padding: 10px;
+  margin-top: 10px;
+}
+nav .navbar-nav {
+  text-align: center;
+}
+nav .navbar-nav .nav-item .nav-link {
+  padding: 25px 16px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 400;
+}
+nav .navbar-nav .active {
+  border-bottom: 2px solid #253764;
+}
+nav .navbar-nav .active .nav-link {
+  color: #253764;
+}
+nav .navbar-nav .nav-item:hover {
+  border-bottom: 2px solid #253764;
+}
+nav .navbar-nav .dropdown-menu {
+  margin-top: 2px;
+}
+.carousel-control-prev {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 4%;
+}
+.carousel-control-next {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 4%;
+}
+.carousel-control-next .carousel-control-next-btn {
+  background: #000000;
+  padding: 21px 5px;
+  border-radius: 5%;
+  border: 0;
+  opacity: 0.5;
+}
+.carousel-control-prev .carousel-control-prev-btn {
+  background: #000000;
+  opacity: 0.5;
+  padding: 21px 5px;
+  border-radius: 5%;
+  border: 0;
+}
+.carousel-caption {
+  text-align: left;
+  left: 10%;
+  right: 11%;
+}
+.carousel-caption h5 {
+  background: rgb(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 35px;
+  font-family: sans-serif;
+  margin-bottom: 1px;
+}
+.carousel-caption .caption-prg {
+  background: rgb(0, 0, 0, 0.5);
+  padding: 10px 15px;
+  line-height: 24px;
+}
+.carousel-caption p {
+  font-size: 17px;
+  padding: 3px;
+  display: inline;
+  background: rgb(29, 28, 28);
+}
+.carousel-indicators [data-bs-target] {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+}
+.equipment {
+  height: 105px;
+}
+.medical-equ,
+.furniture-equ,
+.other-equ {
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+.equipment .medical-equ {
+  background: #585757;
+  transition: 0.5s;
+}
+.furniture-equ {
+  background: #686565;
+  transition: 0.5s;
+}
+.other-equ {
+  background: #827e7e;
+  transition: 0.5s;
+}
+.medical-equ:hover,
+.furniture-equ:hover,
+.other-equ:hover {
+  background: #222222;
+  transition: 0.8s;
+}
+.medical-equ,
+.furniture-equ,
+.other-equ p {
+  line-height: 3.9;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 23px;
+}
+.services-header {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 400;
+  color: #97a0b9;
+}
+.services .services-item {
+  background: #f5f8fa;
+  margin-right: 20px;
+  text-align: center;
+  padding: 5px;
+  padding-top: 35px;
+  cursor: pointer;
+}
+.services .services-item p {
+  color: #484b6e;
+  font-size: 22px;
+  font-weight: 300px;
+  padding-top: 10px;
+  margin-top: 8px;
+}
+#selling_brand {
+  background: #f1f1f1;
+  text-align: center;
+}
+.selling_brand h3 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #6d758a;
+  margin: 50px 0;
+}
+h3.history-header {
+  text-align: center;
+  font-size: 35px;
+  color: #97a0b9;
+  font-weight: 400;
+}
+
+.history-img {
+  padding: 10px;
+}
+.history-padding p {
+  line-height: 23px;
+}
+.history .history-list .history-item {
+  margin-right: 10px;
+}
+.history-item h3 {
+  font-size: 25px;
+  font-weight: 350;
+  color: #254595;
+}
+.history-item p {
+  font-size: 17px;
+  color: rgb(29, 28, 28);
+}
+.history-btn-msg {
+  font-size: 18px;
+  color: #5970ac;
+  border: 1px solid #5970ac;
+  padding: 10px 15px;
+}
+.history-btn-msg:hover {
+  color: #5970ac;
+  border: 1px solid #5970ac;
+}
+.achivement {
+  width: 500px;
+  margin: 0 auto;
+}
+.achivement h3 {
+  font-size: 35px;
+  margin-left: 30px;
+  color: #97a0b9;
+  font-weight: 400;
+}
+.achivement .achivement-icon {
+  display: flex;
+  justify-content: space-around;
+}
+.achivement .achivement-icon span,
+.achivement .achivement-icon p {
+  padding: 10px;
+  font-size: 40px;
+}
+.achivement .achivement-pre {
+  font-size: 20px;
+  text-align: center;
+}
+
+#testimonial {
+  background: #e5e6e7;
+  min-height: 500px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.testimonial .testmonial-header {
+  text-align: center;
+  font-size: 35px;
+  color: #6d758a;
+  padding-bottom: 20px;
+}
+
+.testimonial .carousel-inner {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.testimonial-body p {
+  line-height: 33px;
+  font-size: 22px;
+  text-align: center;
+}
+.tesimonial-atr {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+.tesimonial-atr h4 {
+  margin: 20px;
+  font-weight: 600;
+  font-size: 21px;
+}
+.testimonial-body img {
+  width: 45px;
+  height: 45px;
+  border-radius: 80%;
+  margin-right: 12px;
+  opacity: 0.7;
+  margin-top: 25px;
+}
+.testimonial .carousel-control-next,
+.testimonial .carousel-control-prev {
+  top: -260px;
+}
+.testimonial .carousel-control-next-icon,
+.testimonial .carousel-control-prev-icon {
+  background-image: none;
+  color: rgb(85, 82, 82);
+  font-size: 70px;
+}
+#partners {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+#partners h3 {
+  text-align: center;
+  font-size: 35px;
+  color: #6d758a;
+  padding-bottom: 20px;
+}
+.partner-spns img {
+  width: 80%;
+}
+
+#footer {
+  background: #202d4c;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  min-height: 510px;
+  color: white;
+  font-family: sans-serif;
+}
+.footer-about,
+.footer-link,
+.footer-products,
+.footer-contact,
+.footer-settlement-header {
+  padding-top: 40px;
+}
+
+.footer-about-header,
+.footer-link-header,
+.footer-products-header,
+.footer-contact-header,
+.footer-settlement-header {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.footer-settlement-header {
+  padding-bottom: 5px;
+  padding-top: 30px;
+}
+.footer-list {
+  margin-left: -28px;
+}
+.footer-item {
+  text-decoration: none;
+  list-style: none;
+}
+.footer-item a,
+.footer-about a {
+  color: #fff;
+  line-height: 35px;
+}
+.footer p {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.footer-down-nav {
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.footer-down-nav li {
+  float: left;
+}
+.footer-down-nav .footer-nav-item {
+  list-style: none;
+  border-right: 2px solid white;
+  padding: 0px 10px;
+  height: 22px;
+}
+.footer-down-nav .footer-nav-item a {
+  color: white;
+}
+
+@media only screen and (max-width: 767px) {
+  .equipment {
+    min-height: 400px;
+  }
+  .medical-equ {
+    margin-bottom: 10px;
+  }
+  .furniture-equ,
+  .other-equ {
+    margin: 10px 0;
+  }
+  .medical-equ p,
+  .furniture-equ p,
+  .other-equ p {
+    margin-top: 9px;
+  }
+  .services-item {
+    margin: 10px 0;
+  }
+  .history-img {
+    text-align: center;
+  }
+  .partner-spns {
+    text-align: center;
+    margin: 25px 0;
+  }
+
+  .partner-spns img {
+    width: 50%;
+    text-align: center;
+  }
+  .footer-about,
+  .footer-link,
+  .footer-products,
+  .footer-contact,
+  .footer-settlement-header {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .footer-about-header,
+  .footer-link-header,
+  .footer-products-header,
+  .footer-contact-header,
+  .footer-settlement-header {
+    padding-bottom: 5px;
+  }
+}
+@media only screen and (max-width: 550px) and (min-width: 400px) {
+  .achivement .achivement-icon {
+    justify-content: center;
+  }
+  .achivement {
+    width: 100% !important;
+  }
+  .achivement h3 {
+    font-size: 25px;
+    margin-left: 0px;
+  }
+  #slider .carousel-item img {
+    height: 297px !important;
+  }
+  .carousel-caption {
+    left: 10%;
+    right: 11%;
+  }
+  .carousel-caption h5 {
+    padding: 10px 15px;
+    font-size: 25px;
+  }
+  .carousel-caption .caption-prg {
+    padding: 5px 10px;
+    line-height: 20px;
+  }
+  .carousel-caption p {
+    font-size: 12px;
+  }
+}

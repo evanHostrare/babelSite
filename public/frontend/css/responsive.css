@@ -1,0 +1,13 @@
+@media only screen and (min-width:767px){
+    .wrapper{
+        display: none;
+    }
+}
+@media only screen and (max-width:767px){
+    .mobile-off{
+        display: none;
+    }
+    .wrapper{
+        display: block;
+    }
+}
